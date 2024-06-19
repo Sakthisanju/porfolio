@@ -254,7 +254,9 @@
 
 <div class="container">
   <h2 class="fw-bold mt-3">Contact Us</h2>
-  <form action="mailto:sakthicareers37@gmail.com" method="post" enctype="text/plain">
+  <form action="https://api.web3forms.com/submit" method="POST">
+    <div class="form-group" id="validateForm">
+     <input type="hidden" name="access_key" value="430068e5-1256-4152-a5cb-fd2f6692f423">
       <div class="form-group">
           <label for="name" class="text-light">First Name:</label>
           <input type="text" id="name" name="name" required>
@@ -272,6 +274,7 @@
           <textarea id="message" name="message" rows="5" required></textarea>
       </div>
       <input type="submit" value="Submit" class="fw-bold text-light">
+    </div>
   </form>
 </div>
 
