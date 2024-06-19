@@ -31,28 +31,31 @@
     </style>
 </head>
 <body>
-    <div class="container">
-        <h2 class="fw-bold mt-3">Contact Us</h2>
-        <form action="mailto:sakthicareers37@gmail.com" method="post" enctype="text/plain">
-            <div class="form-group">
-                <label for="name" class="text-light">First Name:</label>
-                <input type="text" id="name" name="name" required>
-            </div>
-            <div class="form-group">
-                <label for="name" class="text-light">Last Name:</label>
-                <input type="text" id="name" name="name" required>
-            </div>
-            <div class="form-group">
-                <label for="email" class="text-light">Your Email:</label>
-                <input type="email" id="email" name="email" required>
-            </div>
-            <div class="form-group">
-                <label for="message" class="text-light">Message:</label>
-                <textarea id="message" name="message" rows="5" required></textarea>
-            </div>
-            <input type="submit" value="Submit" class="fw-bold text-light">
-        </form>
+   <div class="container">
+  <h2 class="fw-bold mt-3">Contact Us</h2>
+  <form action="https://api.web3forms.com/submit" method="POST">
+    <div class="form-group" id="validateForm">
+     <input type="hidden" name="access_key" value="430068e5-1256-4152-a5cb-fd2f6692f423">
+      <div class="form-group">
+          <label for="name" class="text-light">First Name:</label>
+          <input type="text" id="name" name="name" required>
+      </div>
+      <div class="form-group">
+          <label for="name" class="text-light">Last Name:</label>
+          <input type="text" id="name" name="name" required>
+      </div>
+      <div class="form-group">
+          <label for="email" class="text-light">Your Email:</label>
+          <input type="email" id="email" name="email" required>
+      </div>
+      <div class="form-group">
+          <label for="message" class="text-light">Message:</label>
+          <textarea id="message" name="message" rows="5" required></textarea>
+      </div>
+      <input type="submit" value="Submit" class="fw-bold text-light">
     </div>
+  </form>
+</div>
 
     <div class="container-fluid">
         <div class="row">
